@@ -16,7 +16,7 @@ while True:
         print("\nYour added tasks:")
 
         for index, task in enumerate(tasks):
-            print(f"----- {index}: {task['name']} {task['is_completed']}")
+            print(f"----- {index}: {task['name']} - {task['is_completed']}")
 
     elif option == 2:
         value = input("Enter a new task: ")
